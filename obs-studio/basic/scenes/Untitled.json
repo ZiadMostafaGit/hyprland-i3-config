@@ -77,17 +77,17 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 1,
+                "id_counter": 2,
                 "custom_size": false,
                 "items": [
                     {
-                        "name": "Screen Capture (PipeWire)",
-                        "source_uuid": "2da6ba55-2135-4967-934c-3fd43a633d78",
+                        "name": "Display Capture (XSHM)",
+                        "source_uuid": "b30b3c02-e78b-4ca8-89dd-469324ee2808",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "scale_ref": {
-                            "x": 1920.0,
+                            "x": 1919.0,
                             "y": 1080.0
                         },
                         "align": 5,
@@ -98,14 +98,14 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 1,
+                        "id": 2,
                         "group_item_backup": false,
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
                         },
                         "pos_rel": {
-                            "x": -1.7777777910232544,
+                            "x": -1.7768518924713135,
                             "y": -1.0
                         },
                         "scale": {
@@ -150,8 +150,8 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
-                "libobs.show_scene_item.1": [],
-                "libobs.hide_scene_item.1": []
+                "libobs.show_scene_item.2": [],
+                "libobs.hide_scene_item.2": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -160,12 +160,12 @@
         },
         {
             "prev_ver": 520093696,
-            "name": "Screen Capture (PipeWire)",
-            "uuid": "2da6ba55-2135-4967-934c-3fd43a633d78",
-            "id": "pipewire-screen-capture-source",
-            "versioned_id": "pipewire-screen-capture-source",
+            "name": "Display Capture (XSHM)",
+            "uuid": "b30b3c02-e78b-4ca8-89dd-469324ee2808",
+            "id": "xshm_input_v2",
+            "versioned_id": "xshm_input_v2",
             "settings": {
-                "RestoreToken": ""
+                "screen": 0
             },
             "mixers": 0,
             "sync": 0,
@@ -233,6 +233,13 @@
             "autoStartStreamTimer": false,
             "autoStartRecordTimer": false,
             "pauseRecordTimer": true
+        },
+        "auto-scene-switcher": {
+            "interval": 300,
+            "non_matching_scene": "",
+            "switch_if_not_matching": false,
+            "active": false,
+            "switches": []
         }
     },
     "version": 2

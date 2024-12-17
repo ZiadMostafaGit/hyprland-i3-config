@@ -14,8 +14,16 @@ for_window [class="^.*"] border pixel 1
 set $mod Mod4
 # set $mod Mod1
 
+
+# Automatically lock screen after 5 minutes of inactivity
+exec --no-startup-id xautolock -time 5 -locker "i3lock -c 000000" -detectsleep
+
+
+
+
+
 exec --no-startup-id picom
-exec --no-startup-id feh --bg-scale ~/.config/backgrounds/nice-blue-background.png
+exec --no-startup-id feh --bg-scale ~/.config/backgrounds/abstract-background-black-background-amoled-motorola-edge-3840x2160-8668.jpg 
 exec --no-startup-id xrdb -merge ~/.Xresources
 exec_always --no-startup-id setxkbmap -option ctrl:nocaps
 
