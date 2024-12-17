@@ -1,0 +1,15 @@
+[Added Associations]
+audio/mp4=firefox.desktop;
+application/zip=org.gnome.Nautilus.desktop;
+video/webm=vlc.desktop;
+<<<<<<< HEAD
+
+[Default Applications]
+video/webm=vlc.desktop
+=======
+text/plain=nvim.desktop;
+
+[Default Applications]
+video/webm=vlc.desktop
+text/plain=nvim.desktop
+>>>>>>> ef54294 (add i3 config)

@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+=======
+connect.dial_devices="[]"
+>>>>>>> ef54294 (add i3 config)
+audio.play_bitrate_non_metered_migrated=true
