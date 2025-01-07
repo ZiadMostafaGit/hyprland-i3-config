@@ -1,0 +1,94 @@
+{
+ "Week": "2024-12-24",
+ "LastWeek": "",
+ "X": 0.6223801589160869,
+ "Programs": [
+  {
+   "Program": "cmd/asm",
+   "Version": "go1.23.4",
+   "GoVersion": "go1.23.4",
+   "GOOS": "linux",
+   "GOARCH": "amd64",
+   "Counters": {},
+   "Stacks": {}
+  },
+  {
+   "Program": "cmd/compile",
+   "Version": "go1.23.4",
+   "GoVersion": "go1.23.4",
+   "GOOS": "linux",
+   "GOARCH": "amd64",
+   "Counters": {
+    "compile/invocations": 290
+   },
+   "Stacks": {}
+  },
+  {
+   "Program": "cmd/go",
+   "Version": "go1.23.4",
+   "GoVersion": "go1.23.4",
+   "GOOS": "linux",
+   "GOARCH": "amd64",
+   "Counters": {
+    "go/buildcache/miss": 1437,
+    "go/buildcache/stdlib-recompiled": 26,
+    "go/env/flag:json": 3,
+    "go/goroot:usr-lib-go": 84,
+    "go/invocations": 84,
+    "go/list/flag:compiled": 26,
+    "go/list/flag:deps": 26,
+    "go/list/flag:e": 53,
+    "go/list/flag:export": 26,
+    "go/list/flag:f": 53,
+    "go/list/flag:find": 26,
+    "go/list/flag:json": 26,
+    "go/list/flag:overlay": 75,
+    "go/list/flag:pgo": 26,
+    "go/list/flag:test": 26,
+    "go/mode:gopath": 81,
+    "go/mode:module": 3,
+    "go/platform/host/linux/major-version:6": 84,
+    "go/platform/host/linux/version:6-12": 84,
+    "go/platform/target/goamd64:v3": 84,
+    "go/platform/target/goarch:amd64": 84,
+    "go/platform/target/goos:linux": 84,
+    "go/subcommand:env": 4,
+    "go/subcommand:list": 79,
+    "go/subcommand:version": 1
+   },
+   "Stacks": {}
+  },
+  {
+   "Program": "cmd/gofmt",
+   "Version": "go1.23.4",
+   "GoVersion": "go1.23.4",
+   "GOOS": "linux",
+   "GOARCH": "amd64",
+   "Counters": {
+    "gofmt/invocations": 7
+   },
+   "Stacks": {}
+  },
+  {
+   "Program": "golang.org/x/tools/gopls",
+   "Version": "devel",
+   "GoVersion": "go1.23.1",
+   "GOOS": "linux",
+   "GOARCH": "amd64",
+   "Counters": {
+    "gopls/client:neovim": 1,
+    "gopls/completion/latency:\u003c10ms": 568,
+    "gopls/completion/latency:\u003c200ms": 9,
+    "gopls/completion/len:0": 129,
+    "gopls/completion/len:\u003c=10": 387,
+    "gopls/completion/len:\u003e10": 61,
+    "gopls/completion/used:no": 575,
+    "gopls/gotoolchain:auto": 1,
+    "gopls/goversion:1.23": 1,
+    "gopls/telemetryprompt/attempts:0": 1
+   },
+   "Stacks": {}
+  }
+ ],
+ "Config": "v0.0.0-0"
+}

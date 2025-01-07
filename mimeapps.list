@@ -13,3 +13,8 @@ text/plain=nvim.desktop;
 video/webm=vlc.desktop
 text/plain=nvim.desktop
 >>>>>>> ef54294 (add i3 config)
+text/html=google-chrome.desktop
+x-scheme-handler/http=google-chrome.desktop
+x-scheme-handler/https=google-chrome.desktop
+x-scheme-handler/about=google-chrome.desktop
+x-scheme-handler/unknown=google-chrome.desktop
